@@ -18,6 +18,7 @@
 5. Now navigate to the [workshop's Git repository](https://github.com/zleckron/cseduclub) where the starter files exist.
 6. _Fork_ the repository to your account by pressing the "Fork" button in the upper right-hand corner.
 7. *__IMPORTANT:__* Rename the newly forked repository to `username.github.io`, where `username` is your username on GitHub. No exceptions.
+    Here's a link to do that: https://help.github.com/en/articles/renaming-a-repository
 8. Copy to clipboard the url to your renamed Git repo i.e. `https://github.com/username/username.github.io`
 9. Now from an easily accessible place on your computer (i.e. "My Documents"), create a new folder and name it "Websites" (you can name it whatever you want but we'll use "Websites" for consistency).
 *__Protip:__ avoid having spaces in your folder names; instead use a dash or underscore.*
@@ -32,16 +33,16 @@ $ npm install
 $ npm rebuild node-sass
 $ npm start
 ```
-11. Open the Atom IDE that you downloaded in step 2. From your Atom IDE, open `username.github.io` (File > Open > navitage to `username.github.io` in your Websites folder and select it).
-12. [Add the atom-live-server package] by visiting this link (https://atom.io/packages/atom-live-server) and clicking the green "Install" button.
-13. In Atom, enter `ctrl-alt-l` with your keyboard (`ctrl-option-l` on MacOS).
-14. go to `localhost://3000` in a browser of your choice (if one doesn't open up for you after step 13) and marvel at what is being rendered from your starter code. __DON'T WORRY -__ you will get a chance to customize the site later on in the workshop. But first ...
+12. Open the Atom IDE that you downloaded in step 2. From your Atom IDE, open `username.github.io` (File > Open > navitage to `username.github.io` in your Websites folder and select it).
+13. [Add the atom-live-server package] by visiting this link (https://atom.io/packages/atom-live-server) and clicking the green "Install" button.
+14. In Atom, enter `ctrl-alt-l` with your keyboard (`ctrl-option-l` on MacOS).
+15. go to `localhost:3000` in a browser of your choice (if one doesn't open up for you after step 13) and marvel at what is being rendered from your starter code. __DON'T WORRY -__ you will get a chance to customize the site later on in the workshop. But first ...
 #
 ### Part 1b: Brief Overview of HTML & SCSS
 1. Open the Google Slides with the links for Part 1b: https://docs.google.com/presentation/d/124nU7ZKkGKpjYBQ6iwncdnb-aAI8JUVX2V-SuWC8cfA/edit?usp=sharing
 1. Open HelloWorld.html in your Atom IDE and also in a browser of your choice (by double-clicking it in your finder).
 2. In the browser, try using the Inspect feature. To open this on Chrome, go to the webpage in the browser and right-click, then select Inspect from the menu that appears.
-3. When editing, save your HTML code in the Atom IDE (you can use `ctrl-s` on Windows or `cmd-s` on Mac) and refresh the page.
+3. When editing, save your HTML code in the Atom IDE and refresh the page in the browser.
 4. You can view the HTML code from the Elements pane of the Inspect panel, and you can view errors from the Console pane. You should see 2 errors. See if you can figure out how to fix them!
 5. Experiment with replacing words and adding elements (we suggest paragraphs, headings, or images).
 6. When you are satisfied with the changes you have made to HelloWorld.html, you can go ahead and close it in the browser and close the HelloWorld.html tab in the Atom IDE.
@@ -52,7 +53,7 @@ $ npm start
 ### Part 2: Customize with [Bulma](http://bulma.io)
 1. Now return to your Atom IDE and follow along with the instructor in this __*live coding*__ session. The goal here is to get you familiar with Bulma's file structure as well as Bulma's syntax for using its various components.
 
-Once you are more or less happy with how your site looks in `localhost://3000`, it is now time to "push" these new changes up to your newly created GitHub account.
+Once you are more or less happy with how your site looks in `localhost:3000`, it is now time to "push" these new changes up to your newly created GitHub account.
 2. Open up a __second__ terminal and run the following commands.
 #
 ```sh
