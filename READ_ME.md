@@ -38,6 +38,7 @@ $ npm start
 14. go to `localhost://3000` in a browser of your choice (if one doesn't open up for you after step 13) and marvel at what is being rendered from your starter code. __DON'T WORRY -__ you will get a chance to customize the site later on in the workshop. But first ...
 #
 ### Part 1b: Brief Overview of HTML & SCSS
+1. Open the Google Slides with the links for Part 1b: https://docs.google.com/presentation/d/124nU7ZKkGKpjYBQ6iwncdnb-aAI8JUVX2V-SuWC8cfA/edit?usp=sharing
 1. Open HelloWorld.html in your Atom IDE and also in a browser of your choice (by double-clicking it in your finder).
 2. In the browser, try using the Inspect feature. To open this on Chrome, go to the webpage in the browser and right-click, then select Inspect from the menu that appears.
 3. When editing, save your HTML code in the Atom IDE (you can use `ctrl-s` on Windows or `cmd-s` on Mac) and refresh the page.
